@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("windows-xp-background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.form-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+
+  input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+
+    &:hover {
+      border-bottom-color: #022c9f;
+    }
+
+    &:focus {
+      outline: solid;
+      border-color: #022c9f;
+      background-color: #ffd600;
+    }
+  }
+}
+
+.form-button {
+  text-align: center;
+
+  button {
+    background-color: #ffd600;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    &:hover {
+      background-color: #022c9f;
+      color: white;
+    }
+  }
+}
